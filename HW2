@@ -1,0 +1,40 @@
+Ex.1a
+
+The Gaussian distribution is defined using the mean and standard deviation of X as the probability density function:
+
+{\displaystyle f(x)={\frac {1}{\sigma {\sqrt {2\pi }}}}e^{-{\frac {1}{2}}\left({\frac {x-\mu }{\sigma }}\right)^{2}}}
+
+The Gaussian distribution can be normalized using a transformation of variable X as:
+
+U = [X - (mu)x]/(sigma)x
+
+The corresponding probability density function becomes:
+
+f_U(u) = 1/sqrt(2(pi))e^[(-u^2)/2]
+
+Cumulative distribution with respect to u is then obtained as the cumulative distribution function Phi(u):
+
+Phi(u) = F_U(u) = S(u)(-inf)1/sqrt(2(pi) e^[(-xi^2)/2]d(xi)
+
+Numerical values of Phi(u) can be found in statistics texts. Since the normal distribution in the above function is symmetric with respect to x=0, we have
+
+Phi(-u) = 1-Phi(u)
+
+Therefore the Gaussian distribution is normalized
+
+Ex.1b
+
+We know that X = mu + sigma(Z) where Z is a random variable having a standard normal distribution.
+
+Therefore: 
+
+E[X] = E[mu + sigma(Z)]
+E[X] = mu + sigma(E[Z]) (by linearity)
+E[X] = mu + sigma(0)
+E[X] = mu + 0 = mu
+
+Ex.1c
+
+Var[X] = Var[mu + sigma(Z)]
+Var[X] = sigma^2(Var[Z]) 
+Var[X] = sigma^2
